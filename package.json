@@ -1,13 +1,14 @@
 {
   "name": "@carry0987/npm-test",
-  "version": "1.0.0",
-  "description": "Test",
+  "version": "1.0.2",
+  "description": "A simple benchmark for testing function performance",
   "main": "dist/index.min.js",
   "scripts": {
     "dev": "rollup -c -w",
     "build": "rm -rf dist/ && rollup -c",
     "test": "jest"
   },
+  "files": ["dist"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/carry0987/NPM-Test.git"
@@ -18,6 +19,7 @@
     "url": "https://github.com/carry0987/NPM-Test/issues"
   },
   "homepage": "https://github.com/carry0987/NPM-Test#readme",
+  "keywords": ["performance", "benchmark", "evaluation", "speed", "timer"],
   "devDependencies": {
     "jest": "^29.7.0",
     "rollup": "^2.79.1",
